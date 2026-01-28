@@ -1,7 +1,5 @@
 """
-Módulo refactorizado para el manejo de un libro diario contable.
-Este archivo permite registrar transacciones y calcular
-los totales de ingresos y egresos aplicando buenas prácticas.
+Este archivo nos va a permitir mejorar los calsulos
 """
 
 # Importamos tipos para mejorar la claridad del código
@@ -53,10 +51,10 @@ class LibroDiario:
         # Se agrega la transacción válida a la lista
         self.transacciones.append(
             {
-                "fecha": fecha,              # Fecha de la transacción
-                "descripcion": descripcion,  # Descripción del movimiento
-                "monto": monto,              # Valor monetario
-                "tipo": tipo,                # Ingreso o egreso
+                "fecha": fecha,              
+                "descripcion": descripcion,  
+                "monto": monto,              
+                "tipo": tipo,                
             }
         )
 
